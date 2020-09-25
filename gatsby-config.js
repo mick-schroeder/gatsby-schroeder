@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Jeff Jadulco`,
-    description: `Jeff Jadulco is a game and javascript developer`,
-    author: `Jeff Jadulco`,
+    title: `Mick Schroeder`,
+    description: `Mick Schroeder is a game and javascript developer`,
+    author: `Mick Schroeder`,
     siteUrl:
       process.env.DEV_ENV === 1
-        ? `https://dev.jeffjadulco.com`
-        : `https://jeffjadulco.com`,
+        ? `https://dev.mickschroeder.com`
+        : `https://mickschroeder.com`,
     image: `/images/og-card.png`,
-    twitterUsername: `@jeffjadulco`,
+    twitterUsername: `@mick-schroeder`,
   },
   plugins: [
     {
@@ -38,8 +38,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jeff Jadulco`,
-        short_name: `Jeff Jadulco`,
+        name: `Mick Schroeder`,
+        short_name: `Mick Schroeder`,
         start_url: `/`,
         background_color: `#2d3748`,
         theme_color: `#81E6D9`,
@@ -53,8 +53,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://jeffjadulco.com",
-        sitemap: "https://jeffjadulco.com/sitemap.xml",
+        host: "https://mickschroeder.com",
+        sitemap: "https://mickschroeder.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
         env: {
           development: {

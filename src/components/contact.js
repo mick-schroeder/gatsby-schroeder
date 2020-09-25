@@ -17,7 +17,7 @@ export const Contact = () => {
         </p>
         <p className="px-4 mt-1 text-center text-secondary">
           You can also reach me around the web:{" "}
-          <ExtLink link="https://github.com/jeffjadulco" newTab>
+          <ExtLink link="https://github.com/mick-schroeder" newTab>
             GitHub
           </ExtLink>
           ,{" "}
@@ -30,7 +30,7 @@ export const Contact = () => {
           </ExtLink>
         </p>
         <div className="mx-auto  pt-10 flex justify-center">
-          <Button width="widest" link="mailto:hey@jeffjadulco.com">
+          <Button width="widest" link="mailto:hey@mickschroeder.com">
             <span className=" text-2xl font-semibold text-on-accent">
               Say hello
             </span>

@@ -1,58 +1,62 @@
 export default [
   {
-    slug: "https://jeffjadulco.com/",
-    title: "jeffjadulco.com",
+    slug: "https://mickschroeder.com/",
+    title: "mickschroeder.com",
     description: "My personal website made with React and Gatsby.",
     year: "2020",
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/jeffjadulco/jeffjadulco.com",
-      },
-      {
-        label: "Figma",
-        url:
-          "https://www.figma.com/file/6umesgU3tEZgkQm9Hrw2PO/jeffjadulco.com?node-id=121%3A3",
-      },
-    ],
-  },
-  {
-    slug: "https://jeffjads-todo-app-react.netlify.app/",
-    title: "to do app",
-    description: "My first time with React",
-    year: "2020",
-    links: [
-      {
-        label: "GitHub",
-        url: "https://github.com/jeffjadulco/training-react-todo-app",
+        url: "https://github.com/mick-schroeder/gatsby-schroeder",
       },
       {
         label: "Demo",
-        url: "https://jeffjads-todo-app-react.netlify.app/",
+        url:
+          "https://www.mickschroeder.com/",
       },
     ],
   },
   {
-    slug: "https://github.com/jeffjadulco/unity-guid-regenerator",
-    title: "unity-guid-regenerator",
-    description: "An editor tool I made to regenerate GUID of Unity assets",
+    slug: "https://github.com/mick-schroeder/RxShortages",
+    title: "RxShortages",
+    description: "Mobile application for drug shortages.",
     year: "2020",
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/jeffjadulco/unity-guid-regenerator",
+        url: "https://github.com/mick-schroeder/RxShortages",
+      },
+      {
+        label: "App Store",
+        url: "https://github.com/mick-schroeder/RxShortages",
       },
     ],
   },
   {
-    slug: "https://globalgamejam.org/2016/games/abducktion",
-    title: "Abducktion",
-    description: "Global Game Jam 2016 entry. Made with friends.",
+    slug: "https://github.com/mick-schroeder/schroeder-cite",
+    title: "Citation Generator",
+    description: "Free and open-source software that automatically helps write a bibliography for you.",
+    year: "2020",
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/mick-schroeder/schroeder-cite",
+      },      
+      {
+        label: "URL",
+        url: "https://cite.mickschroeder.com",
+      },
+    ],
+  },
+  {
+    slug: "https://github.com/mick-schroeder/Medical-Spelling-Dictionary",
+    title: "Medical Spelling Dictionary",
+    description: "Spelling dictionary containing medical terms for MS Word",
     year: "2016",
     links: [
       {
-        label: "Website",
-        url: "https://globalgamejam.org/2016/games/abducktion",
+        label: "Download",
+        url: "https://github.com/mick-schroeder/Medical-Spelling-Dictionary",
       },
     ],
   },

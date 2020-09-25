@@ -25,13 +25,13 @@ const Footer = _ => {
               className="text-xs tracking-wider self-center md:self-end"
               aria-label="Copyright"
             >
-              © 2020 Jeff Jadulco. All Rights Reserved.
+              © 2020 Mick Schroeder. All Rights Reserved.
             </span>
             <div className="flex flex-row items-center space-x-4 justify-center md:justify-end">
               <span>
                 <a
-                  href="mailto:hey@jeffjadulco.com"
-                  aria-label="Email hey@jeffjadulco.com"
+                  href="mailto:hey@mickschroeder.com"
+                  aria-label="Email hey@mickschroeder.com"
                   title="Email"
                 >
                   <svg
@@ -47,7 +47,7 @@ const Footer = _ => {
               </span>
               <span>
                 <a
-                  href="https://github.com/jeffjadulco"
+                  href="https://github.com/mick-schroeder"
                   aria-label="Visit GitHub profile"
                   title="Visit GitHub profile"
                   target="_blank"
