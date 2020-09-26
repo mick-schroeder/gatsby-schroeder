@@ -8,15 +8,6 @@ My personal website running on Gatsby.
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Storybook](https://storybook.js.org/)
-- 
-- 
-## Tech Stack
-
-- [React](https://reactjs.org/)
-- [Gatsby](https://www.gatsbyjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Storybook](https://storybook.js.org/)
-
 
 ## Quick setup
 
