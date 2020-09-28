@@ -43,9 +43,7 @@ const ProjectGrid = ({ showHeading }) => {
                     })}
                   </div>
                 </div>
-                <span className="mt-1 text-sm sm:text-base text-tertiary">
-                  {project.year}
-                </span>
+                <img className="h-16 w-16 mx-auto"src={project.icon} alt="Project icon"></img>
               </div>
             </li>
           )

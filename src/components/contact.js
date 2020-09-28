@@ -17,15 +17,19 @@ export const Contact = () => {
         </p>
         <p className="px-4 mt-1 text-center text-secondary">
           You can also reach me around the web:{" "}
+          <ExtLink link="https://www.linkedin.com/in/schroedermick/" newTab>
+            LinkedIn
+          </ExtLink>
+          ,{" "}
           <ExtLink link="https://github.com/mick-schroeder" newTab>
             GitHub
           </ExtLink>
           ,{" "}
-          <ExtLink link="https://twitter.com/jeffjadulco" newTab>
+          <ExtLink link="https://twitter.com/mick_schroeder" newTab>
             Twitter
           </ExtLink>
           ,{" "}
-          <ExtLink link="https://www.instagram.com/jeffjadulco/" newTab>
+          <ExtLink link="https://www.instagram.com/mick_schroeder/" newTab>
             Instagram
           </ExtLink>
         </p>

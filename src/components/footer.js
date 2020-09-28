@@ -85,7 +85,7 @@ const Footer = _ => {
               </span> */}
               <span>
                 <a
-                  href="https://twitter.com/jeffjadulco"
+                  href="https://twitter.com/mick_schroeder"
                   aria-label="Visit Twitter profile"
                   title="Visit Twitter profile"
                   target="_blank"
@@ -104,7 +104,7 @@ const Footer = _ => {
               </span>
               <span>
                 <a
-                  href="https://www.instagram.com/jeffjadulco/"
+                  href="https://www.instagram.com/mick_schroeder/"
                   aria-label="Visit Instagram profile"
                   title="Visit Instagram profile"
                   target="_blank"

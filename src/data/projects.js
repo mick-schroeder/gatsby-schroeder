@@ -1,26 +1,9 @@
 export default [
   {
-    slug: "https://mickschroeder.com/",
-    title: "mickschroeder.com",
-    description: "My personal website made with React and Gatsby.",
-    year: "2020",
-    links: [
-      {
-        label: "GitHub",
-        url: "https://github.com/mick-schroeder/gatsby-schroeder",
-      },
-      {
-        label: "Demo",
-        url:
-          "https://www.mickschroeder.com/",
-      },
-    ],
-  },
-  {
     slug: "https://github.com/mick-schroeder/RxShortages",
     title: "RxShortages",
     description: "Mobile application for drug shortages.",
-    year: "2020",
+    icon: "images/icon-rxshortages.png",
     links: [
       {
         label: "GitHub",
@@ -36,7 +19,7 @@ export default [
     slug: "https://github.com/mick-schroeder/schroeder-cite",
     title: "Citation Generator",
     description: "Free and open-source software that automatically helps write a bibliography for you.",
-    year: "2020",
+    icon: "images/icon-cite.png",
     links: [
       {
         label: "GitHub",
@@ -52,11 +35,28 @@ export default [
     slug: "https://github.com/mick-schroeder/Medical-Spelling-Dictionary",
     title: "Medical Spelling Dictionary",
     description: "Spelling dictionary containing medical terms for MS Word",
-    year: "2016",
+    icon: "images/icon-spell.png",
     links: [
       {
         label: "Download",
         url: "https://github.com/mick-schroeder/Medical-Spelling-Dictionary",
+      },
+    ],
+  },
+  {
+    slug: "https://mickschroeder.com/",
+    title: "mickschroeder.com",
+    description: "My personal website made with React and Gatsby.",
+    icon: "images/icon-mickschroeder.png",    
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/mick-schroeder/gatsby-schroeder",
+      },
+      {
+        label: "Demo",
+        url:
+          "https://www.mickschroeder.com/",
       },
     ],
   },

@@ -26,7 +26,7 @@ const Header = ({ activePage }) => (
         <NavLink to="/blog" title="Blog" selected={activePage === "blog"}>
           Blog
         </NavLink>
-        <NavLink to="/products" title="Projects" selected={activePage === "projects"}>
+        <NavLink to="/projects" title="Projects" selected={activePage === "projects"}>
           Projects
         </NavLink>
         <NavLink to="/about" title="About" selected={activePage === "about"}>
