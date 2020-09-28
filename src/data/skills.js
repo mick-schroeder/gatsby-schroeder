@@ -1,49 +1,80 @@
 export default [
   {
-    label: "Game Development Skills",
-    description:
-      "Skills I acquired during 5+ years of being in game development industry",
+    label: "Education",
+    description: "",
     categories: [
       {
-        title: "Unreal Engine 4 Game Development",
+        title: "Philadelphia College of Pharmacy",
         skills: [
-          "C++ and Blueprint Programming",
-          "UMG and Complex UI Systems",
-          "Multiplayer and Network Programming",
-          "3rd Party Library and API Integration",
-          "Online Services Integration",
+          "Doctor of Pharmacy",
+          "University of the Sciences",          
+          "Philadelphia, PA",
+
+        ],
+      },
+    ],
+  },
+   {
+    label: "Residency",
+    description:
+      "Post-graduate advanced practice experience",
+    categories: [
+      {
+        title: "Pharmacy Practice Residency (PGY-1)",
+        skills: [
+          "Sentara Healthcare",
+          "Hampton Roads, Virginia",
         ],
       },
       {
-        title: "Unity Game Development",
+        title: "Pharmacy Informatics Specialty Residency (PGY-2)",
         skills: [
-          "C# Programming",
-          "Complex System Design and Architecture",
-          "Complex UI Systems",
-          "Editor Tooling",
-          "3rd Party Library and API Integration",
+          "Oregon Health and Science University (OHSU)",
+          "Portland, Oregon",
+
         ],
       },
     ],
   },
   {
-    label: "Web Development Skills",
-    description: "Skills I learned during the quarantine",
+    label: "Epic Certificates",
+    description:
+      "Experienced consultant specializing in Epic Electronic Medical Record implemnentation and support.",
     categories: [
       {
-        title: "Front-end Development",
+        title: "Beacon Certification",
         skills: [
-          "React: CRA, Gatsby, and Next",
-          "Tailwind CSS and Component Libraries",
-          "Jest & React Testing Library",
-          "Design Systems w/Storybook",
-          "SEO-friendly and Accessible Designs",
+          "Medical Oncology and Radiation Oncology",
         ],
       },
       {
-        title: "Backend Development",
-        skills: ["Express", "Socket.io", "Firebase and Firestore"],
+        title: "Willow Inpatient Certification",
+        skills: [
+          "Pharmacy",
+        ],
       },
+      {
+        title: "EpicCare Ambulatory Certification",
+        skills: [
+          "Pharmacy",
+        ],
+      },
+      {
+        title: "Epic Phoenix Transplant Certificationn",
+        skills: [
+          "Transplant",
+        ],
+      },
+      {
+        title: "Epic Research Certification",
+        skills: [
+          "Pharmacy",
+        ],
+      },
+      {
+        title: "Epic SmartForms Certification",
+      },
+
     ],
   },
 ]
