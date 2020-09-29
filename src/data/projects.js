@@ -43,7 +43,7 @@ export default [
   {
     slug: "https://mickschroeder.com/",
     title: "mickschroeder.com",
-    description: "See how this website works or \"fork\" and create your own copy on Github.",
+    description: "See how this website works or \"fork\" and make it your own.",
     icon: "images/icon-mickschroeder.png",    
     links: [
       {
@@ -51,7 +51,7 @@ export default [
         url: "https://github.com/mick-schroeder/gatsby-schroeder",
       },
       {
-        label: "Demo",
+        label: "Url",
         url:
           "https://www.mickschroeder.com/",
       },

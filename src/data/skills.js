@@ -39,7 +39,7 @@ export default [
   {
     label: "Epic Certificates",
     description:
-      "Experienced consultant specializing in Epic Electronic Medical Record implemnentation and support.",
+      "Experienced consultant specializing in Epic electronic medical record implementation and support.",
     categories: [
       {
         title: "Beacon Certification",
@@ -50,29 +50,32 @@ export default [
       {
         title: "Willow Inpatient Certification",
         skills: [
-          "Pharmacy",
+          "Pharmacy Module",
         ],
       },
       {
         title: "EpicCare Ambulatory Certification",
         skills: [
-          "Pharmacy",
+          "",
         ],
       },
       {
         title: "Epic Phoenix Transplant Certificationn",
         skills: [
-          "Transplant",
+          "",
         ],
       },
       {
         title: "Epic Research Certification",
         skills: [
-          "Pharmacy",
+          "",
         ],
       },
       {
         title: "Epic SmartForms Certification",
+        skills: [
+          "",
+        ],
       },
 
     ],

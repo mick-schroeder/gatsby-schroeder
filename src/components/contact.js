@@ -12,8 +12,7 @@ export const Contact = () => {
           </span>
         </h1>
         <p className="px-4 mt-4 text-center text-secondary">
-          Feel free to email me about anything. Want some advice? Give some
-          feedback?
+          Feel free to email me. Networking? Business Opportunity?
         </p>
         <p className="px-4 mt-1 text-center text-secondary">
           You can also reach me around the web:{" "}
@@ -34,7 +33,7 @@ export const Contact = () => {
           </ExtLink>
         </p>
         <div className="mx-auto  pt-10 flex justify-center">
-          <Button width="widest" link="mailto:hey@mickschroeder.com">
+          <Button width="widest" link="mailto:me@mickschroeder.com">
             <span className=" text-2xl font-semibold text-on-accent">
               Say hello
             </span>
