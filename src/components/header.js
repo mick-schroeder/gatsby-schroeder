@@ -23,14 +23,17 @@ const Header = ({ activePage }) => (
         <NavLink to="/" title="Home" selected={activePage === "/"}>
           Home
         </NavLink>
+        <NavLink to="/about" title="About" selected={activePage === "about"}>
+          About
+        </NavLink>
         <NavLink to="/blog" title="Blog" selected={activePage === "blog"}>
           Blog
         </NavLink>
         <NavLink to="/projects" title="Projects" selected={activePage === "projects"}>
           Projects
         </NavLink>
-        <NavLink to="/about" title="About" selected={activePage === "about"}>
-          About
+        <NavLink to="https://cite.mickschroeder.com" title="Citation Generator" selected={activePage === "cite"}>
+          Citation Generator
         </NavLink>
       </span>
       <ThemeToggle className="hidden sm:block hover:text-accent transition duration-150" />

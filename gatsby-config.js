@@ -5,7 +5,7 @@ module.exports = {
     author: `Mick Schroeder`,
     siteUrl:
       process.env.DEV_ENV === 1
-        ? `https://dev.mickschroeder.com`
+        ? `https://tst.mickschroeder.com`
         : `https://mickschroeder.com`,
     image: `/images/og-card.png`,
     twitterUsername: `@mick-schroeder`,
