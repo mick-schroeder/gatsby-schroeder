@@ -5,8 +5,8 @@ const ProjectList = ({ showHeading }) => {
    return (
     <section className="">
       {showHeading && (
-        <h2 className="mt-32 font-normal text-accent tracking-widestest">
-          PROJECTS
+        <h2 className="mt-32 font-bold text-accent tracking-widestest uppercase">
+          Projects
         </h2>
       )}
       <ul className="mt-3 divide-y divide-subtle">

@@ -42,7 +42,7 @@ module.exports = {
         short_name: `Mick Schroeder`,
         start_url: `/`,
         background_color: `#2d3748`,
-        theme_color: `#81E6D9`,
+        theme_color: `#30D9C4`,
         display: `minimal-ui`,
         icon: `src/assets/images/logo-512x512.png`,
       },

@@ -44,8 +44,8 @@ const TOC = ({ items }) => {
 
   return (
     <nav className="toc text-tertiary">
-      <h2 className="mb-2 font-normal text-accent tracking-widestest">
-        TABLE OF CONTENTS
+      <h2 className="mb-2 font-normal text-accent tracking-widestest uppercase">
+        Table of Contents
       </h2>
       <TocEntry items={itemsWithIntroduction} active={activeNode} />
     </nav>

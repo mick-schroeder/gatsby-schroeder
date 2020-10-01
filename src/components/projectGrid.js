@@ -6,8 +6,8 @@ const ProjectGrid = ({ showHeading }) => {
   return (
     <section className="">
       {showHeading && (
-        <h2 className="mt-32 font-normal text-accent tracking-widestest">
-          PROJECTS
+        <h2 className="mt-32 font-bold text-accent tracking-widestest uppercase">
+          Projects
         </h2>
       )}
       <ul className="mt-3 -mx-5 grid md:grid-cols-2 gap-6 md:gap-6">

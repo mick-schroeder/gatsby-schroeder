@@ -2,13 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 export const NavLink = ({ to, children, title = "Link", selected = false }) => {
-  const textColor = selected ? "text-accent" : "text-secondary"
-  const style = `font-normal text-base hover:text-accent transition duration-150 ${textColor}`
+  const styleSelected = "text-accent border-bg-accent hover:border-bg-accent-hover"
+  const styleUnselected = "text-secondary border-transparent hover:border-bg-secondary"
+  const currentStyle = selected ? styleSelected : styleUnselected
+  const style = `font-medium text-base pb-2 border-b-2 hover:text-accent transition duration-150 ${currentStyle}`
   return (
     <Link to={to} title={title}>
       <span className={style}>{children}</span>
     </Link>
-  )
+)
 }
 
 export const BlogTitle = ({ children }) => {
