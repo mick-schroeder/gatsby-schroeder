@@ -45,18 +45,18 @@
 }
 
 .dark {
-  --color-bg-accent: #30D9C4;
+  --color-bg-accent: #4FD1C5;
   --color-bg-primary: #1a202c;
   --color-bg-secondary: #161b25;
   --color-bg-accent-hover: #4fd1c5;
 
-  --color-text-accent: #30D9C4;
+  --color-text-accent: #4FD1C5;
   --color-text-primary: #f7fafc;
   --color-text-secondary: #e2e8f0;
   --color-text-tertiary: #a0aec0;
   --color-text-on-accent: #1a202c;
 
-  --color-fill-primary: #30D9C4;
+  --color-fill-primary: #4FD1C5;
   --color-fill-secondary: #161b25;
 
   --color-gradient-accent1: rgba(49, 130, 206, 1);
