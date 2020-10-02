@@ -32,7 +32,7 @@ const Header = ({ activePage }) => (
         <NavLink to="/projects" title="Projects" selected={activePage === "projects"}>
           Projects
         </NavLink>
-        <NavLink to="https://cite.mickschroeder.com" title="Citation Generator" selected={activePage === "cite"}>
+        <NavLink to="https://cite.mickschroeder.com" title="Citation Generator" selected={activePage === "cite"} external="true">
           Citation Generator
         </NavLink>
       </span>
