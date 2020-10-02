@@ -14,7 +14,7 @@ const About = _ => {
         <article className="prose">
           <h2>About Me</h2>
           <p>
-            I'm Mick Schroeder, a health informatics pharmacist in Brooklyn, NY.
+            I'm Mick Schroeder, a Health Informatics Pharmacist in Brooklyn, NY.
           </p>
           </article>
 

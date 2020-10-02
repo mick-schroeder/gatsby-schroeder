@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div className="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
       <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl sm:text-4xl text-primary font-extrabold sm:text-left md:text-center lg:text-left">
         Hi, I’m Mick Schroeder, PharmD. <span role="img" aria-label="waving hand">👋</span>
-        <br className="mb-6" /><span class="text-2xl sm:text-3xl text-accent font-normal">A Health Informatics Pharmacist in Brooklyn, NY.</span> 
+        <br className="mb-6" /><span class="text-2xl sm:text-3xl text-accent font-normal">Health Informatics Pharmacist in Brooklyn, NY.</span> 
       </h1>
       <div className="relative">
         <Blob />
