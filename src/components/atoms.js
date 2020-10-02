@@ -16,7 +16,7 @@ export const NavLink = ({
   const currentStyle = selected ? styleSelected : styleUnselected
   const style = `font-medium text-base pb-2 border-b-2 hover:text-accent transition duration-150 ${currentStyle}`
 
-  if (external == true) {
+  if (external === true) {
     return (
       <a
         href={to}
