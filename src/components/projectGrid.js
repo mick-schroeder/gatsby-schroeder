@@ -7,6 +7,9 @@ const ProjectGrid = ({ showHeading }) => {
     <section className="">
       {showHeading && (
         <h2 className="mt-32 font-bold text-accent tracking-widestest uppercase">
+          <span className="pr-2" role="img" aria-label="emoji icon">
+            💡
+          </span>
           Projects
         </h2>
       )}
@@ -43,7 +46,11 @@ const ProjectGrid = ({ showHeading }) => {
                     })}
                   </div>
                 </div>
-                <img className="h-16 w-16 mx-auto"src={project.icon} alt="Project icon"></img>
+                <img
+                  className="h-16 w-16 mx-auto"
+                  src={project.icon}
+                  alt="Project icon"
+                ></img>
               </div>
             </li>
           )

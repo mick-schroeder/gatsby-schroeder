@@ -49,11 +49,14 @@ const PostList = ({ showHeading }) => {
   `)
   return (
     <section className="">
-      {(
+      {
         <h2 className="mt-32 font-bold text-accent tracking-widestest uppercase">
+          <span className="pr-2" role="img" aria-label="emoji icon">
+            🎙️
+          </span>
           Latest Posts
         </h2>
-      )}
+      }
       <ul className="mt-3 divide-y divide-subtle">
         {data.allMdx.edges.map(({ node }) => {
           const post = {

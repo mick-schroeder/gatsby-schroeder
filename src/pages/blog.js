@@ -9,10 +9,14 @@ const Blog = () => {
   return (
     <Layout activePage="blog">
       <SEO title="Blog" />
-      <Heading>Blog</Heading>
+      <Heading>
+        <span className="pr-2" role="img" aria-label="emoji icon">
+          🎙️
+        </span>
+        Blog
+      </Heading>
       <p className="-mt-3 mb-12 text-tertiary">
-        I write about things I learn in web development and also stuff that I
-        find interesting.
+        Articles and thoughts published online.
       </p>
       <PostList />
       <Contact />
