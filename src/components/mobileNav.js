@@ -48,7 +48,7 @@ const MobileNav = () => {
       </button>
       {navShow && (
         <div className="relative z-10">
-          <div className="w-full h-screen fixed bg-primary opacity-90"></div>
+          <div className="w-full h-screen fixed bg-primary opacity-96"></div>
           <button
             type="button"
             className="w-full h-screen fixed cursor-auto"
@@ -56,18 +56,46 @@ const MobileNav = () => {
               setNavShow(!navShow)
             }}
           ></button>
-          <nav className="right-0 h-screen mt-auto py-48 px-6 fixed flex flex-col items-end font-medium text-primary tracking-widest">
+          <nav className="w-screen h-screen mt-auto py-48 px-6 fixed flex flex-col items-center font-medium text-primary tracking-widest">
             <div className="flex-grow">
-              <Link to="/">HOME</Link>
+            <span className="pr-2" role="img" aria-label="emoji icon">
+            🏠
+                </span>
+                <Link to="/">
+                HOME
+                </Link>
             </div>
             <div className="flex-grow">
-              <Link to="/blog">BLOG</Link>
+              <Link to="/about">
+              <span className="pr-2" role="img" aria-label="emoji icon">
+              👨‍💻
+                </span>
+                ABOUT
+              </Link>
             </div>
             <div className="flex-grow">
-              <Link to="/projects">PROJECTS</Link>
+              <Link to="/blog">
+                <span className="pr-2" role="img" aria-label="emoji icon">
+                🎙️
+                </span>
+                BLOG
+              </Link>
             </div>
             <div className="flex-grow">
-              <Link to="/about">ABOUT</Link>
+              <Link to="/projects">
+              <span className="pr-2" role="img" aria-label="emoji icon">
+              💡
+                </span>
+                PROJECTS
+              </Link>
+            </div>
+            <div className="flex-grow">
+              <Link to="/about">
+              <span className="pr-2" role="img" aria-label="emoji icon">
+              📝
+                </span>
+                CITATION GENERATOR
+              </Link>
             </div>
             <ThemeToggle />
           </nav>
