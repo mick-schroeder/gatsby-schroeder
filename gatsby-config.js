@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Mick Schroeder`,
-    description: `Mick Schroeder is a game and javascript developer`,
+    description: `Mick Schroeder, PharmD is a Health Informatics Pharmacist in Brooklyn, NY.`,
     author: `Mick Schroeder`,
     siteUrl:
       process.env.DEV_ENV === 1
         ? `https://tst.mickschroeder.com`
         : `https://mickschroeder.org`,
     image: `/images/og-card.png`,
-    twitterUsername: `@mick-schroeder`,
+    twitterUsername: `@mick_schroeder`,
   },
   plugins: [
     {
