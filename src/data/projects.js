@@ -1,6 +1,6 @@
 export default [
   {
-    slug: "https://github.com/mick-schroeder/schroeder-cite",
+    slug: "https://cite.mickschroeder.com",
     title: "Citation Generator",
     description:
       "Free and open-source software that automatically suggests citations and helps write a bibliography for you.",
@@ -43,9 +43,9 @@ export default [
     ],
   },
   {
-    slug: "https://mickschroeder.com/",
+    slug: "https://github.com/mick-schroeder/gatsby-schroeder",
     title: "mickschroeder.com",
-    description: 'See how this website works or "fork" and make it your own.',
+    description: 'See code for this website or "fork" and make your own.',
     icon: "images/icon-mickschroeder.png",
     links: [
       {

@@ -35,7 +35,7 @@ export const Contact = () => {
         <div className="mx-auto  pt-10 flex justify-center">
           <Button width="widest" link="mailto:me@mickschroeder.com">
             <span className=" text-2xl font-semibold text-on-accent">
-              Say hello
+              E-mail Me
             </span>
           </Button>
         </div>
