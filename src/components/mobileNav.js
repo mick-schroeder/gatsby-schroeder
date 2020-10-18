@@ -56,13 +56,13 @@ const MobileNav = () => {
               setNavShow(!navShow)
             }}
           ></button>
-          <nav className="w-screen h-screen mt-auto py-48 px-6 fixed flex flex-col items-center font-medium text-primary tracking-widest">
+          <nav className="w-screen h-screen mt-auto py-48 px-6 fixed flex flex-col items-center font-medium uppercase text-primary tracking-widest">
             <div className="flex-grow">
             <span className="pr-2" role="img" aria-label="emoji icon">
             🏠
                 </span>
                 <Link to="/">
-                HOME
+                mickschroeder.com
                 </Link>
             </div>
             <div className="flex-grow">
@@ -70,7 +70,7 @@ const MobileNav = () => {
               <span className="pr-2" role="img" aria-label="emoji icon">
               👨‍💻
                 </span>
-                ABOUT
+                About
               </Link>
             </div>
             <div className="flex-grow">
@@ -78,7 +78,7 @@ const MobileNav = () => {
                 <span className="pr-2" role="img" aria-label="emoji icon">
                 🎙️
                 </span>
-                BLOG
+                Blog
               </Link>
             </div>
             <div className="flex-grow">
@@ -86,16 +86,16 @@ const MobileNav = () => {
               <span className="pr-2" role="img" aria-label="emoji icon">
               💡
                 </span>
-                PROJECTS
+                Projects
               </Link>
             </div>
             <div className="flex-grow">
-              <Link to="/about">
+             <a href="https://cite.mickschroeder.com" target="_blank" rel="noopener noreferrer">
               <span className="pr-2" role="img" aria-label="emoji icon">
               📝
                 </span>
-                CITATION GENERATOR
-              </Link>
+                Citation Generator
+              </a>
             </div>
             <ThemeToggle />
           </nav>
