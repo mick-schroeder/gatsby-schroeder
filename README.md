@@ -1,3 +1,5 @@
+![mickschroeder.com](https://github.com/mick-schroeder/gatsby-schroeder/raw/master/src/assets/images/mickschroeder.logo.png)
+
 # [mickschroeder.com](https://mickschroeder.com)
 
 My personal website running on Gatsby.
