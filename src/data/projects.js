@@ -43,6 +43,19 @@ export default [
     ],
   },
   {
+    slug: "https://weblinkshuffle.com",
+    title: "Web Link Shuffle",
+    description:
+      "Channel surf the web. One url to access a curated selection of the best sites on the Internet.",
+    icon: "images/icon-shuffle.png",
+    links: [
+      {
+        label: "Try it out",
+        url: "https://weblinkshuffle.com",
+      },
+    ],
+  },
+  {
     slug: "https://github.com/mick-schroeder/gatsby-schroeder",
     title: "mickschroeder.com",
     description: 'See code for this website or "fork" and make your own.',
