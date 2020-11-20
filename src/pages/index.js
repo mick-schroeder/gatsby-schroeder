@@ -18,7 +18,7 @@ const IndexPage = () => (
           👋
         </span>
         <br className="mb-6" />
-        <span class="text-2xl sm:text-3xl text-accent font-normal">
+        <span className="text-2xl sm:text-3xl text-accent font-normal">
           Health Informatics Pharmacist in Brooklyn, NY.
         </span>
       </h1>
