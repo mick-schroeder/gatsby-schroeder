@@ -39,7 +39,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mick Schroeder`,
-        short_name: `Mick Schroeder`,
+        short_name: `Schroeder`,
         start_url: `/`,
         background_color: `#2d3748`,
         theme_color: `#4FD1C5`,

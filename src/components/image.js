@@ -19,7 +19,7 @@ const Image = ({ path }) => {
       placeholderImage: file(relativePath: { eq: "the-avatar.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
       }
@@ -27,7 +27,7 @@ const Image = ({ path }) => {
   `)
 
   return (
-    <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Avatar" />
+    <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Mick Schroeder" />
   )
 }
 
