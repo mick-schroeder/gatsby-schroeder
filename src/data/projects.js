@@ -43,11 +43,11 @@ export default [
     ],
   },
   {
-    slug: "https://weblinkshuffle.com",
-    title: "Web Link Shuffle",
+    slug: "https://webingest.com",
+    title: "Web Ingest",
     description:
       "Channel surf the web. One url to access a curated selection of the best sites on the Internet.",
-    icon: "images/icon-shuffle.png",
+    icon: "images/icon-webingest.png",
     links: [
       {
         label: "Try it out",
