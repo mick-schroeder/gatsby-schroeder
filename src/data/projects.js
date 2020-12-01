@@ -46,12 +46,12 @@ export default [
     slug: "https://webingest.com",
     title: "Web Ingest",
     description:
-      "Channel surf the web. One url to access a curated selection of the best sites on the Internet.",
+      "Channel surf the web. 🔀 Shuffle to a random 🔗 link from curated selection of the best sites on the 🌐 Internet.",
     icon: "images/icon-webingest.png",
     links: [
       {
         label: "Try it out",
-        url: "https://weblinkshuffle.com",
+        url: "https://webingest.com",
       },
     ],
   },
