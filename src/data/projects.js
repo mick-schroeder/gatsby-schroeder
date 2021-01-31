@@ -4,7 +4,7 @@ export default [
     title: "Citation Generator",
     description:
       "Free and open-source software that automatically suggests citations and helps write a bibliography for you.",
-    icon: "images/icon-cite.png",
+    icon: "/images/icon-cite.png",
     links: [
       {
         label: "Try it out",
@@ -21,7 +21,7 @@ export default [
     title: "RxShortages",
     description:
       "RxShortages was an open-source cross platform mobile application for drug shortages.",
-    icon: "images/icon-rxshortages.png",
+    icon: "/images/icon-rxshortages.png",
     links: [
       {
         label: "Source code",
@@ -34,7 +34,7 @@ export default [
     title: "Medical Spelling Dictionary",
     description:
       "Free Spelling dictionary containing medical terms for Microsoft Word / Office.",
-    icon: "images/icon-spell.png",
+    icon: "/images/icon-spell.png",
     links: [
       {
         label: "Download",
@@ -43,15 +43,15 @@ export default [
     ],
   },
   {
-    slug: "https://webingest.com",
-    title: "Web Ingest",
+    slug: "https://webshuffle.mickschroeder.com",
+    title: "Web Shuffle",
     description:
       "Channel surf the web. 🔀 Shuffle to a random 🔗 link from curated selection of the best sites on the 🌐 Internet.",
-    icon: "images/icon-webingest.png",
+    icon: "/images/icon-webshuffle.png",
     links: [
       {
         label: "Try it out",
-        url: "https://webingest.com",
+        url: "https://webshuffle.mickschroeder.com",
       },
     ],
   },
@@ -59,7 +59,7 @@ export default [
     slug: "https://github.com/mick-schroeder/gatsby-schroeder",
     title: "mickschroeder.com",
     description: 'See code for this website or "fork" and make your own.',
-    icon: "images/icon-mickschroeder.png",
+    icon: "/images/icon-mickschroeder.png",
     links: [
       {
         label: "Source code",
