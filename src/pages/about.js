@@ -19,7 +19,7 @@ const About = _ => {
             About Me
           </h2>
           <p>
-            I'm Mick Schroeder, a Health Informatics Pharmacist in Brooklyn, NY.
+            I'm Mick Schroeder, a Health Informatics Pharmacist.
           </p>
         </article>
 

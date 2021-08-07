@@ -19,12 +19,12 @@ const IndexPage = () => (
         </span>
         <br className="mb-6" />
         <span class="text-2xl sm:text-3xl text-accent font-normal">
-          Health Informatics Pharmacist in Brooklyn, NY.
+          Health Informatics Pharmacist.
         </span>
       </h1>
-      <div className="mx-auto  pt-10 flex justify-center">
+      <div className="mx-auto pt-10 flex justify-center">
           <HeroButton width="widest" link="about" title="More info about me">
-            <span className=" text-xl font-semibold text-on-accent">
+            <span className=" text-lg font-semibold text-on-accent">
               More about me...
             </span>
           </HeroButton>

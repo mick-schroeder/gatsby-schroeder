@@ -46,7 +46,7 @@ export default [
     slug: "https://webshuffle.mickschroeder.com",
     title: "Web Shuffle",
     description:
-      "Channel surf the web. 🔀 Shuffle to a random 🔗 link from curated selection of the best sites on the 🌐 Internet.",
+      "🔀 Shuffle the web. Shuffle a random link from the best sites across the web.",
     icon: "/images/icon-webshuffle.png",
     links: [
       {

@@ -31,7 +31,7 @@ export default [
     ],
   },
   {
-    label: "Epic Certificates",
+    label: "Epic Certifications",
     description:
       "Experienced consultant specializing in Epic electronic medical record implementation and support.",
     categories: [
@@ -48,7 +48,7 @@ export default [
         skills: [""],
       },
       {
-        title: "Epic Phoenix Transplant Certificationn",
+        title: "Epic Phoenix Transplant Certification",
         skills: [""],
       },
       {
