@@ -32,12 +32,12 @@ const Header = ({ activePage }) => (
           About
         </NavLink>
         <NavLink
-          to="/blog"
-          title="Blog"
+          to="/articles"
+          title="Articles"
           emoji="🎙️"
-          selected={activePage === "blog"}
+          selected={activePage === "articles"}
         >
-          Blog
+          Articles
         </NavLink>
         <NavLink
           to="/software"

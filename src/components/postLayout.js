@@ -16,7 +16,7 @@ const shortcodes = {
 
 const PostLayout = ({ data: { mdx, ogImage } }) => {
   return (
-    <Layout activePage="blog">
+    <Layout activePage="articles">
       <SEO
         blog
         title={mdx.frontmatter.title}

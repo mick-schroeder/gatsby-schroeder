@@ -4,7 +4,7 @@ import { withA11y } from "@storybook/addon-a11y"
 import TOC from "../src/components/toc"
 
 export default {
-  title: "Blog",
+  title: "Article",
   decorators: [withA11y],
 }
 
