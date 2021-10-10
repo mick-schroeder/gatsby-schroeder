@@ -82,11 +82,11 @@ const MobileNav = () => {
               </Link>
             </div>
             <div className="flex-grow">
-              <Link to="/projects">
+              <Link to="/software">
               <span className="pr-2" role="img" aria-label="emoji icon">
               💡
                 </span>
-                Projects
+                Software
               </Link>
             </div>
             <div className="flex-grow">

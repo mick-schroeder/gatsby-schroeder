@@ -9,7 +9,7 @@ const ProjectList = ({ showHeading }) => {
           <span className="pr-2" role="img" aria-label="emoji icon">
             💡
           </span>
-          Projects
+          Software Projects
         </h2>
       )}
       <ul className="mt-3 divide-y divide-subtle">

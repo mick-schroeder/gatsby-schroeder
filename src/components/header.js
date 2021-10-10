@@ -40,12 +40,12 @@ const Header = ({ activePage }) => (
           Blog
         </NavLink>
         <NavLink
-          to="/projects"
-          title="Projects"
+          to="/software"
+          title="Software"
           emoji="💡"
-          selected={activePage === "projects"}
+          selected={activePage === "software"}
         >
-          Projects
+          Software
         </NavLink>
         <NavLink
           to="https://cite.mickschroeder.com"

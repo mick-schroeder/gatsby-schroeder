@@ -10,7 +10,7 @@ const ProjectGrid = ({ showHeading }) => {
           <span className="pr-2" role="img" aria-label="emoji icon">
             💡
           </span>
-          Projects
+          Software
         </h2>
       )}
       <ul className="mt-3 -mx-5 grid md:grid-cols-2 gap-6 md:gap-6">

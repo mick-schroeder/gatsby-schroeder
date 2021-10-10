@@ -7,9 +7,9 @@ import ProjectGrid from "../components/projectGrid"
 
 const Projects = () => {
   return (
-    <Layout activePage="projects">
-      <SEO title="Projects" />
-      <Heading>Projects</Heading>
+    <Layout activePage="software">
+      <SEO title="Software Projects" />
+      <Heading>Software Projects</Heading>
       <p className="-mt-3 mb-8 text-tertiary">
         Collection of open-source software projects.
       </p>

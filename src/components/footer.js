@@ -10,11 +10,11 @@ const Footer = _ => {
             <NavLink to="/" title="Home">
               Home
             </NavLink>
-            <NavLink to="/blog" title="Blog">
-              Blog
+            <NavLink to="/articles" title="Articles">
+              Articles
             </NavLink>
-            <NavLink to="/projects" title="Projects">
-              Projects
+            <NavLink to="/software" title="Software">
+              Software
             </NavLink>
             <NavLink to="/about" title="About">
               About

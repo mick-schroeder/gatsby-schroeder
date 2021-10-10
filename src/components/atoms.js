@@ -145,14 +145,14 @@ export const ProjectLink = ({ label, url }) => {
 }
 
 export const HeroButton = ({ children, link, title, width }) => {
-  let padding = "px-4 py-2"
+  let padding = "px-4 py-4"
 
   if (width === "wide") {
-    padding = "px-8 py-2"
+    padding = "px-8 py-4"
   } else if (width === "wider") {
-    padding = "px-16 py-2"
+    padding = "px-16 py-4"
   } else if (width === "widest") {
-    padding = "px-20 py-2"
+    padding = "px-20 py-4"
   }
 
   const className = `${padding} rounded accent-gradient text-on-accent`
