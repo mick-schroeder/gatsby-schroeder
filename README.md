@@ -1,7 +1,7 @@
 
 # [mickschroeder.com](https://mickschroeder.com)
 
-Website of Mick Schroeder, PharmD. Informatics Pharmacist. Built with Gatsby.js.
+Website of Mick Schroeder, PharmD. Informatics Pharmacist from New Jersey 🗽 🇺🇸
 
 ![screenshot](https://github.com/mick-schroeder/gatsby-schroeder/raw/master/src/assets/images/gatsby-schroeder.gif)
 
@@ -11,21 +11,24 @@ Website of Mick Schroeder, PharmD. Informatics Pharmacist. Built with Gatsby.js.
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## Quick setup
+## Development
 
 ```
 git clone https://github.com/mick-schroeder/gatsby-schroeder.git
 cd gatsby-schroeder
 npm install
-gatsby develop
+npm run develop
 ```
 Open `http://localhost:8000`
 
-## Authors
+## Author
 
 - [Mick Schroeder](https://mickschroeder.com)
-- based on [jeffjadulco/jeffjadulco.com](https://github.com/jeffjadulco/jeffjadulco.com)
+
+## Attribution
+
+- Based on [jeffjadulco/jeffjadulco.com](https://github.com/jeffjadulco/jeffjadulco.com)
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE)
+This project is open-source and available under the [GNU Affero General Public License](LICENSE)

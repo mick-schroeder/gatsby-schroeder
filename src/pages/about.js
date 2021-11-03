@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { ExtLink, InlinePageLink } from "../components/atoms"
+import { Heading } from "../components/atoms"
 import SkillGrid from "../components/skillGrid"
 import skills from "../data/skills"
 import Contact from "../components/contact"
@@ -11,17 +12,15 @@ const About = _ => {
     <Layout activePage="about">
       <SEO title="About" />
       <div className="container">
-        <article className="prose">
-          <h2>
-            <span className="pr-2" role="img" aria-label="emoji icon">
-              👨‍💻
-            </span>
-            About Me
-          </h2>
-          <p>
-            I'm Mick Schroeder, a Health Informatics Pharmacist.
-          </p>
-        </article>
+        <Heading>
+        <span className="pr-2" role="img" aria-label="emoji icon">
+        👨‍💻
+        </span>
+        About Me
+      </Heading>
+      <p className="-mt-3 mb-12 text-tertiary">
+        Articles and thoughts published online.
+      </p>
 
         <div className="mt-12 flex flex-col space-y-0">
           {skills.map(data => {

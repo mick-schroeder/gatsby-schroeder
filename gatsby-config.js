@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mick Schroeder, PharmD`,
-    description: `Mick Schroeder, PharmD is a Health Informatics Pharmacist.`,
+    description: `Mick Schroeder, PharmD is a health informatics pharmacist.`,
     author: `Mick Schroeder`,
     siteUrl:
       process.env.DEV_ENV === 1

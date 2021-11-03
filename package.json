@@ -50,7 +50,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "scripts": {
     "build": "gatsby build",
     "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
