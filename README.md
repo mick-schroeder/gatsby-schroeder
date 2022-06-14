@@ -1,5 +1,7 @@
 
 # [mickschroeder.com](https://mickschroeder.com)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+![Twitter Follow](https://img.shields.io/twitter/follow/mick_schroeder?style=social)
 
 Website of Mick Schroeder, PharmD. Informatics Pharmacist from New Jersey 🗽 🇺🇸
 
@@ -31,4 +33,4 @@ Open `http://localhost:8000`
 
 ## License
 
-This project is open-source and available under the [GNU Affero General Public License](LICENSE)
+This project is open-source and available under the [GNU Affero General Public License version 3](LICENSE)
