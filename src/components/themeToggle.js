@@ -1,6 +1,5 @@
 import React from "react"
 import { ThemeContext } from "../context/themeContext"
-import { trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 const ThemeToggle = ({ className }) => {
   const { theme, setTheme } = React.useContext(ThemeContext)
@@ -11,11 +10,6 @@ const ThemeToggle = ({ className }) => {
 
   const ToggleTheme = _ => {
     setTheme(isLight() ? "dark" : "light")
-    trackCustomEvent({
-      category: "Dark Mode Toggle",
-      action: "Click",
-      label: "Dark Mode",
-    })
   }
 
   const getToggleClassName = _ => {
