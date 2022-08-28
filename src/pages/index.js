@@ -28,7 +28,7 @@ const IndexPage = () => (
           Open-source Software
         </span>
       </h1>
-      <div className="mx-auto pt-10 flex justify-center">
+      <div className="mx-auto pt-10 flex justify-center md:justify-start">
           <HeroButton width="wider" link="about" title="More info about me">
             <span className=" text-lg font-semibold text-on-accent">
               More about me...
@@ -36,14 +36,14 @@ const IndexPage = () => (
           </HeroButton>
         </div>
       </div>
-      <div className="relative">
+      {/*<div className="relative">
         <Blob />
-        <div className="absolute w-full h-full top-0 flex items-center justify-center">
+         <div className="absolute w-full h-full top-0 flex items-center justify-center">
           <div className="h-32 w-32 md:h-40 md:w-40 lg:h-48 lg:w-48 rounded-full overflow-hidden">
             <Image />
           </div>
-        </div>
-      </div>
+        </div> 
+      </div>*/}
     </div>
     <ProjectList showHeading />
     <PostList showHeading />

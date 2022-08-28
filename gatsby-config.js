@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mick Schroeder, PharmD`,
+    title: `Dr. Mick Schroeder`,
     description: `Mick Schroeder, PharmD is a health informatics pharmacist.`,
     author: `Mick Schroeder`,
     siteUrl:
@@ -14,8 +14,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          process.env.GOOGLE_ANALYTICS_TRACKING_ID// Google Analytics / GA
+        ],
       },
+      pluginConfig: {
+         exclude: ["/preview/**"],
+      },
+
     },
     `gatsby-plugin-react-helmet`,
     {
