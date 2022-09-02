@@ -58,17 +58,15 @@ const MobileNav = () => {
           ></button>
           <nav className="w-screen h-screen mt-auto py-48 px-6 fixed flex flex-col items-center font-medium uppercase text-primary tracking-widest">
             <div className="flex-grow">
-            <span className="pr-2" role="img" aria-label="emoji icon">
-            🏠
-                </span>
-                <Link to="/">
-                mickschroeder.com
-                </Link>
+              <span className="pr-2" role="img" aria-label="emoji icon">
+                🏠
+              </span>
+              <Link to="/">mickschroeder.com</Link>
             </div>
             <div className="flex-grow">
               <Link to="/about">
-              <span className="pr-2" role="img" aria-label="emoji icon">
-              👨‍💻
+                <span className="pr-2" role="img" aria-label="emoji icon">
+                  👨‍💻
                 </span>
                 About
               </Link>
@@ -76,23 +74,27 @@ const MobileNav = () => {
             <div className="flex-grow">
               <Link to="/articles">
                 <span className="pr-2" role="img" aria-label="emoji icon">
-                🎙️
+                  🎙️
                 </span>
                 Articles
               </Link>
             </div>
             <div className="flex-grow">
               <Link to="/software">
-              <span className="pr-2" role="img" aria-label="emoji icon">
-              💡
+                <span className="pr-2" role="img" aria-label="emoji icon">
+                  💡
                 </span>
                 Software
               </Link>
             </div>
             <div className="flex-grow">
-             <a href="https://cite.mickschroeder.com" target="_blank" rel="noopener noreferrer">
-              <span className="pr-2" role="img" aria-label="emoji icon">
-              📝
+              <a
+                href="https://cite.mickschroeder.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="pr-2" role="img" aria-label="emoji icon">
+                  📝
                 </span>
                 Citation Generator
               </a>

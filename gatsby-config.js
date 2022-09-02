@@ -16,13 +16,12 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          process.env.GOOGLE_ANALYTICS_TRACKING_ID// Google Analytics / GA
+          process.env.GOOGLE_ANALYTICS_TRACKING_ID, // Google Analytics / GA
         ],
       },
       pluginConfig: {
-         exclude: ["/preview/**"],
+        exclude: ["/preview/**"],
       },
-
     },
     `gatsby-plugin-react-helmet`,
     {

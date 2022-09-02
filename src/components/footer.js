@@ -27,9 +27,7 @@ const Footer = _ => {
               aria-label="Copyright"
             >
               © 2022 Mick Schroeder. All Rights Reserved.&nbsp;
-             <Link to="/privacy-policy">
-              Privacy Policy.
-             </Link>
+              <Link to="/privacy-policy">Privacy Policy.</Link>
             </span>
             <div className="flex flex-row items-center space-x-4 justify-center md:justify-end">
               <span>

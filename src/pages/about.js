@@ -13,14 +13,14 @@ const About = _ => {
       <SEO title="About" />
       <div className="container">
         <Heading>
-        <span className="pr-2" role="img" aria-label="emoji icon">
-        👨‍💻
-        </span>
-        About Me
-      </Heading>
-      <p className="-mt-3 mb-12 text-tertiary">
-        Articles and thoughts published online.
-      </p>
+          <span className="pr-2" role="img" aria-label="emoji icon">
+            👨‍💻
+          </span>
+          About Me
+        </Heading>
+        <p className="-mt-3 mb-12 text-tertiary">
+          Articles and thoughts published online.
+        </p>
 
         <div className="mt-12 flex flex-col space-y-0">
           {skills.map(data => {

@@ -41,12 +41,8 @@ function SEO({ description, lang, meta, title, blog, ogImage }) {
     `
   )
 
-  const {
-    defaultTitle,
-    defaultDescription,
-    siteUrl,
-    twitterUsername,
-  } = site.siteMetadata
+  const { defaultTitle, defaultDescription, siteUrl, twitterUsername } =
+    site.siteMetadata
 
   const seo = {
     title: title || defaultTitle,

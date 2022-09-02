@@ -27,7 +27,10 @@ const Image = ({ path }) => {
   `)
 
   return (
-    <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Mick Schroeder" />
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="Mick Schroeder"
+    />
   )
 }
 

@@ -1,5 +1,5 @@
 import React from "react"
-import { Blob,HeroButton } from "../components/atoms"
+import { Blob, HeroButton } from "../components/atoms"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostList from "../components/postList"
@@ -11,24 +11,24 @@ const IndexPage = () => (
   <Layout activePage="/">
     <SEO />
     <div className="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
-    <div>
-      <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-primary font-extrabold sm:text-left md:text-center lg:text-left">
-        Hi, I’m Mick Schroeder, PharmD.{" "}
-        <span role="img" aria-label="waving hand">
-          👋
-        </span>
-        <br className="mb-6" />
-        <span class="text-2xl sm:text-3xl text-accent font-normal text-opacity-90">
-          Pharmacist
-        </span>
-        <br className="mb-12" />
-        <span class="text-2xl sm:text-3xl text-opacity-75	font-normal">
-          Health Informatics Consulting 
+      <div>
+        <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-primary font-extrabold sm:text-left md:text-center lg:text-left">
+          Hi, I’m Mick Schroeder, PharmD.{" "}
+          <span role="img" aria-label="waving hand">
+            👋
+          </span>
           <br className="mb-6" />
-          Open-source Software
-        </span>
-      </h1>
-      <div className="mx-auto pt-10 flex justify-center md:justify-start">
+          <span class="text-2xl sm:text-3xl text-accent font-normal text-opacity-90">
+            Pharmacist
+          </span>
+          <br className="mb-12" />
+          <span class="text-2xl sm:text-3xl text-opacity-75	font-normal">
+            Health Informatics Consulting
+            <br className="mb-6" />
+            Open-source Software
+          </span>
+        </h1>
+        <div className="mx-auto pt-10 flex justify-center md:justify-start">
           <HeroButton width="wider" link="about" title="More info about me">
             <span className=" text-lg font-semibold text-on-accent">
               More about me...
