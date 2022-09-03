@@ -43,15 +43,15 @@ export default [
     ],
   },
   {
-    slug: "https://webshuffle.mickschroeder.com",
-    title: "Web Shuffle",
+    slug: "https://randomwebsite.mickschroeder.com",
+    title: "Random Website",
     description:
-      "🔀 Shuffle the web. Shuffle a random link from the best sites across the web.",
-    icon: "/images/icon-webshuffle.png",
+      "🔀 Take me to a random website, please. Hit the \"Random Website\" button and you will be sent to a random website from the most influential sites across the web.",
+    icon: "/images/icon-randomwebsite.png",
     links: [
       {
         label: "Try it out",
-        url: "https://webshuffle.mickschroeder.com",
+        url: "https://randomwebsite.mickschroeder.com",
       },
     ],
   },
