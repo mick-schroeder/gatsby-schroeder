@@ -23,22 +23,22 @@ const Header = ({ activePage }) => (
         <NavLink to="/" title="Home" emoji="🏠" selected={activePage === "/"}>
           Home
         </NavLink>
-        <NavLink
+       {/*  <NavLink
           to="/about"
           title="About"
           emoji="👨‍💻"
           selected={activePage === "about"}
         >
           About
-        </NavLink>
-        <NavLink
+        </NavLink> */}
+       {/*  <NavLink
           to="/articles"
           title="Articles"
           emoji="🎙️"
           selected={activePage === "articles"}
         >
           Articles
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to="/software"
           title="Software"
@@ -47,7 +47,7 @@ const Header = ({ activePage }) => (
         >
           Software
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to="https://cite.mickschroeder.com"
           title="Citation Generator"
           emoji="📝"
@@ -55,7 +55,7 @@ const Header = ({ activePage }) => (
           external="true"
         >
           Citation Generator
-        </NavLink>
+        </NavLink> */}
       </span>
       <ThemeToggle className="hidden sm:block hover:text-accent transition duration-150" />
     </nav>

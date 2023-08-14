@@ -11,15 +11,15 @@ const Footer = _ => {
             <NavLink to="/" title="Home">
               Home
             </NavLink>
-            <NavLink to="/articles" title="Articles">
+           {/*  <NavLink to="/articles" title="Articles">
               Articles
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/software" title="Software">
               Software
             </NavLink>
-            <NavLink to="/about" title="About">
+            {/* <NavLink to="/about" title="About">
               About
-            </NavLink>
+            </NavLink> */}
           </nav>
           <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">
             <span

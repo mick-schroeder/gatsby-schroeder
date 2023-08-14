@@ -12,11 +12,13 @@ const IndexPage = () => (
     <SEO />
     <div className="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
       <div>
-        <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-primary font-extrabold sm:text-left md:text-center lg:text-left">
-          Hi, I’m Mick Schroeder, PharmD.{" "}
+      <h1 className="mb-4 text-4xl font-extrabold text-opacity-90 tracking-tight leading-none  md:text-5xl lg:text-6xl">
+      Hi, I’m Mick Schroeder, PharmD.{" "}
           <span role="img" aria-label="waving hand">
             👋
-          </span>
+          </span></h1>
+           
+        <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-primary font-extrabold sm:text-left  lg:text-left">
           <br className="mb-6" />
           <span class="text-2xl sm:text-3xl text-accent font-normal text-opacity-90">
             Pharmacist
@@ -28,7 +30,7 @@ const IndexPage = () => (
             Open-source Software
           </span>
         </h1>
-        <div className="mx-auto pt-10 flex justify-center md:justify-start">
+        <div className="mx-auto pt-20 flex justify-center md:justify-start">
           <HeroButton width="wider" link="about" title="More info about me">
             <span className=" text-lg font-semibold text-on-accent">
               More about me...
@@ -46,8 +48,8 @@ const IndexPage = () => (
       </div>*/}
     </div>
     <ProjectList showHeading />
-    <PostList showHeading />
-    <Contact />
+{/*     <PostList showHeading />
+ */}    <Contact />
   </Layout>
 )
 

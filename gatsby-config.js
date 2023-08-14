@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Dr. Mick Schroeder`,
+    title: `Mick Schroeder`,
     description: `Mick Schroeder, PharmD is a health informatics pharmacist.`,
     author: `Mick Schroeder`,
     siteUrl:
@@ -37,7 +37,7 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/content/articles`,
       },
-    },
+    }, 
     "gatsby-image",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
