@@ -8,10 +8,10 @@ import ProjectGrid from "../components/projectGrid"
 const Projects = () => {
   return (
     <Layout activePage="software">
-      <SEO title="Software Projects" />
-      <Heading>Software Projects</Heading>
+      <SEO title="Software Portfolio" />
+      <Heading>Software</Heading>
       <p className="-mt-3 mb-8 text-tertiary">
-        Collection of open-source software projects.
+        Collection of open-source software published by Mick Schroeder, LLC.
       </p>
       <ProjectGrid />
       <Contact />

@@ -18,11 +18,11 @@ const ProjectGrid = ({ showHeading }) => {
           return (
             <li
               key={project.title}
-              className="py-5 px-6 relative group md:bg-secondary hover:bg-secondary"
+              className="py-10 px-8      relative group md:bg-secondary hover:bg-secondary rounded-xl"
             >
               <div className="flex justify-between space-x-3 sm:space-x-0 pb-10">
                 <div>
-                  <h3 className="text-xl font-semibold text-primary group-hover:text-accent">
+                  <h3 className="text-xl font-semibold text-primary group-hover:text-accent pb-3">
                     <a
                       href={project.slug}
                       target="_blank"

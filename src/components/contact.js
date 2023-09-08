@@ -11,12 +11,10 @@ export const Contact = () => {
             👋
           </span>
         </h1>
-        <p className="px-4 mt-4 text-center text-secondary">
-          Feel free to email me. Networking? Business Opportunity?
-        </p>
+        <p className="px-4 mt-4 text-center text-secondary"></p>
         <p className="px-4 mt-1 text-center text-secondary">
           You can also reach me around the web:{" "}
-          <ExtLink link="https://www.linkedin.com/in/schroedermick/" newTab>
+          <ExtLink className="px-4 mt-1 text-center text-secondary" link="https://www.linkedin.com/in/schroedermick/" newTab>
             LinkedIn
           </ExtLink>
           ,{" "}
@@ -26,10 +24,6 @@ export const Contact = () => {
           ,{" "}
           <ExtLink link="https://twitter.com/mick_schroeder" newTab>
             Twitter
-          </ExtLink>
-          ,{" "}
-          <ExtLink link="https://www.instagram.com/mick_schroeder/" newTab>
-            Instagram
           </ExtLink>
         </p>
         <div className="mx-auto  pt-10 flex justify-center">

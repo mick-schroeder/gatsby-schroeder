@@ -39,7 +39,7 @@ const Header = ({ activePage }) => (
         >
           Articles
         </NavLink> */}
-        <NavLink
+      <NavLink
           to="/software"
           title="Software"
           emoji="💡"
@@ -47,6 +47,14 @@ const Header = ({ activePage }) => (
         >
           Software
         </NavLink>
+        <NavLink
+        to="/contact"
+        title="Contact"
+        emoji="📝"
+        selected={activePage === "contact"}
+      >
+        Contact
+      </NavLink>
         {/* <NavLink
           to="https://cite.mickschroeder.com"
           title="Citation Generator"

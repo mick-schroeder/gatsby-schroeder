@@ -26,7 +26,7 @@ const Footer = _ => {
               className="text-xs tracking-wider self-center md:self-end"
               aria-label="Copyright"
             >
-              © 2022 Mick Schroeder. All Rights Reserved.&nbsp;
+              © 2023 Mick Schroeder,LLC. All Rights Reserved.&nbsp;
               <Link to="/privacy-policy">Privacy Policy.</Link>
             </span>
             <div className="flex flex-row items-center space-x-4 justify-center md:justify-end">

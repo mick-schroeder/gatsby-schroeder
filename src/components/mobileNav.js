@@ -72,14 +72,7 @@ const MobileNav = () => {
                 About
               </Link>
             </div> */}
-            {/* <div className="flex-grow">
-              <Link to="/articles">
-                <span className="pr-2" role="img" aria-label="emoji icon">
-                  🎙️
-                </span>
-                Articles
-              </Link>
-            </div> */}
+ 
             <div className="flex-grow">
               <Link to="/software">
                 <span className="pr-2" role="img" aria-label="emoji icon">
@@ -88,7 +81,15 @@ const MobileNav = () => {
                 Software
               </Link>
             </div>
-            {/* <div className="flex-grow">
+            <div className="flex-grow">
+            <Link to="/contact">
+              <span className="pr-2" role="img" aria-label="emoji icon">
+                🎙️
+              </span>
+              Contact
+            </Link>
+          </div>
+            <div className="flex-grow">
               <a
                 href="https://cite.mickschroeder.com"
                 target="_blank"
@@ -99,7 +100,19 @@ const MobileNav = () => {
                 </span>
                 Citation Generator
               </a>
-            </div> */}
+            </div> 
+            <div className="flex-grow">
+              <a
+                href="https://webshuffle.mickschroeder.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="pr-2" role="img" aria-label="emoji icon">
+                🔀
+                </span>
+                Web Shuffle
+              </a>
+            </div> 
               <ThemeToggle />
           </nav>
         </div>

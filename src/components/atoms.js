@@ -201,7 +201,7 @@ export const Blob = _ => {
     <div aria-hidden="true">
       <div className="relative blob h-48 md:h-56 lg:h-64">
         <svg
-          className="blob-rotate-faster h-full text-fill-primary fill-current"
+          className="blob-rotate-faster h-full text-fill-primary fill-secondary opacity-10"
           viewBox="0 0 278 279"
           xmlns="http://www.w3.org/2000/svg"
         >

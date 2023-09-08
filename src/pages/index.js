@@ -12,40 +12,23 @@ const IndexPage = () => (
     <SEO />
     <div className="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
       <div>
-      <h1 className="mb-4 text-4xl font-extrabold text-opacity-90 tracking-tight leading-none  md:text-5xl lg:text-6xl">
-      Hi, I’m Mick Schroeder, PharmD.{" "}
-          <span role="img" aria-label="waving hand">
-            👋
-          </span></h1>
-           
-        <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-primary font-extrabold sm:text-left  lg:text-left">
-          <br className="mb-6" />
-          <span class="text-2xl sm:text-3xl text-accent font-normal text-opacity-90">
-            Pharmacist
-          </span>
-          <br className="mb-12" />
+         
+        <h2 className="lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-secondary font-extrabold sm:text-left  lg:text-left">
           <span class="text-2xl sm:text-3xl text-opacity-75	font-normal">
-            Health Informatics Consulting
             <br className="mb-6" />
-            Open-source Software
+            Indie Software Developer in New Jersey.
           </span>
-        </h1>
-        <div className="mx-auto pt-20 flex justify-center md:justify-start">
-          <HeroButton width="wider" link="about" title="More info about me">
-            <span className=" text-lg font-semibold text-on-accent">
-              More about me...
-            </span>
-          </HeroButton>
-        </div>
+        </h2>
+
       </div>
-      {/*<div className="relative">
-        <Blob />
+     <div className="relative">
+       {/* <Blob />*/}  
          <div className="absolute w-full h-full top-0 flex items-center justify-center">
           <div className="h-32 w-32 md:h-40 md:w-40 lg:h-48 lg:w-48 rounded-full overflow-hidden">
             <Image />
           </div>
         </div> 
-      </div>*/}
+      </div>
     </div>
     <ProjectList showHeading />
 {/*     <PostList showHeading />

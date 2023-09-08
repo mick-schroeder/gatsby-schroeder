@@ -5,11 +5,11 @@ const ProjectList = ({ showHeading }) => {
   return (
     <section className="">
       {showHeading && (
-        <h2 className="mt-32 font-bold text-accent tracking-widestest uppercase">
+        <h2 className="mt-20 text-2xl font-bold text-accent tracking-widestest uppercase">
           <span className="pr-2" role="img" aria-label="emoji icon">
             💡
           </span>
-          Software Projects
+          Software
         </h2>
       )}
       <ul className="mt-3 divide-y divide-subtle">

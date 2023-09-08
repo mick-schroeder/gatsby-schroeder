@@ -34,4 +34,4 @@ Open `http://localhost:8000`
 
 ## License
 
-This project is open-source and available under the [GNU Affero General Public License version 3](LICENSE)
+This project is open source and available under the [GNU Affero General Public License version 3](LICENSE)

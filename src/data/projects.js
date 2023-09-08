@@ -3,7 +3,7 @@ export default [
     slug: "https://cite.mickschroeder.com",
     title: "Citation Generator",
     description:
-      "Free and open-source software that automatically suggests citations and helps write a bibliography for you.",
+      "Free and open source software that automatically suggests citations and helps write a bibliography for you.",
     icon: "/images/icon-cite.png",
     links: [
       {
@@ -20,7 +20,7 @@ export default [
     slug: "https://github.com/mick-schroeder/RxShortages",
     title: "RxShortages",
     description:
-      "RxShortages was an open-source cross platform mobile application for drug shortages.",
+      "RxShortages was an open source cross platform mobile application for drug shortages.",
     icon: "/images/icon-rxshortages.png",
     links: [
       {
@@ -46,7 +46,7 @@ export default [
     slug: "https://webshuffle.mickschroeder.com",
     title: "Web Shuffle",
     description:
-      "🔀 Take me to a random website, please. Hit the \"Web Shuffle\" button and you will be sent to a random website from the most influential sites across the web.",
+      " AI curated \"🔀 Web Shuffle\" button for the best and most influential sites on the web.",
     icon: "/images/icon-randomwebsite.png",
     links: [
       {
@@ -58,7 +58,7 @@ export default [
   {
     slug: "https://github.com/mick-schroeder/gatsby-schroeder",
     title: "mickschroeder.com",
-    description: 'See code for this website or "fork" and make your own.',
+    description: 'See source code for this website.',
     icon: "/images/icon-mickschroeder.png",
     links: [
       {
