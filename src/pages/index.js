@@ -12,11 +12,10 @@ const IndexPage = () => (
     <SEO />
     <div className="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
       <div>
-         
         <h2 className="lg:mt-0 max-w-3xl text-3xl text-opacity-90 sm:text-4xl text-secondary font-extrabold sm:text-left  lg:text-left">
           <span class="text-2xl sm:text-3xl text-opacity-75	font-normal">
             <br className="mb-6" />
-            Indie Software Developer in New Jersey.
+            Pharmacist & Indie Software Developer in New Jersey.
           </span>
         </h2>
 
